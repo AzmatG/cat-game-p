@@ -25,6 +25,12 @@ if choice == "Start":
     Art = text2art("Have fun!")
     print(Art)
     StartGame(name)
+    running = True
+    while running:
+        StartGame(name) 
 else:
     cprint("I see... Hope to see you later!", c = "g")
         
+
+
+
